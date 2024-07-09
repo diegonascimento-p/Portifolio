@@ -44,7 +44,7 @@
             width: 300px;
             height: 300px;
         }
-        .projects, .skills, .contact, .experiences, .education {
+        .projects, .skills, .contact, .experiences, .education, .languages {
             margin-bottom: 50px;
         }
         .education .edu-item, .experiences .exp-item {
@@ -54,7 +54,7 @@
         .education img, .experiences img {
             margin-right: 20px;
         }
-        .projects h2, .skills h2, .contact h2, .experiences h2, .education h2 {
+        .projects h2, .skills h2, .contact h2, .experiences h2, .education h2, .languages h2 {
             font-size: 1.8em;
             margin-bottom: 20px;
             border-bottom: 2px solid #4caf50;
@@ -87,13 +87,13 @@
             padding: 0 20px 20px;
             color: #666;
         }
-        .skills ul, .experiences ul, .education ul {
+        .skills ul, .experiences ul, .education ul, .languages ul {
             list-style: none;
             padding: 0;
             display: flex;
             flex-wrap: wrap;
         }
-        .skills li, .experiences li, .education li {
+        .skills li, .experiences li, .education li, .languages li {
             background-color: #ffffff;
             margin: 10px;
             padding: 10px 20px;
@@ -102,7 +102,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s;
         }
-        .skills li:hover, .experiences li:hover, .education li:hover {
+        .skills li:hover, .experiences li:hover, .education li:hover, .languages li:hover {
             background-color: #4caf50;
             color: #ffffff;
         }
